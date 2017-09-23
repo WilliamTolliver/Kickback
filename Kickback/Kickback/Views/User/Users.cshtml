@@ -1,0 +1,15 @@
+﻿@model Kickback.Models.User
+@{
+    ViewBag.Title = "User";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>User</h2>
+
+<ul>
+    <li>@Model.FirstName</li>
+    <li>@Model.LastName</li>
+    <li>@Model.City, @Model.State</li>
+    <li>@Model.Country</li>
+</ul>
+
