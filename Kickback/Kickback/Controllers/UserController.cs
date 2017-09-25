@@ -10,6 +10,7 @@ namespace Kickback.Controllers
     public class UserController : Controller
     {
         // GET: User
+        [Route("users")]
         public ActionResult Users()
         {
             var user = new User() { FirstName = "William", LastName = "Tolliver", City = "Powder Springs", State = "Georgia", Country = "United States" };
